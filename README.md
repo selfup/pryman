@@ -5,7 +5,7 @@ Testing out a way to snapshot pry sessions
 
 Paste this into your ".pryrc" file via vim:
 
-	Pry::Commands.block_command "batman", "Save the session" do |filename="bat    man.rb"|
+	Pry::Commands.block_command "batman", "Save the session" do |filename="batman.rb"|
      		inout = _pry_.input_array.to_a.zip(_pry_.output_array.to_a)
      		body  = inout.map { |input, output|
        		inspected_output = output.inspect.gsub(/^/, '  # ')
