@@ -13,6 +13,7 @@ Paste this into your ".pryrc" file via vim:
      }.join("\n")
      File.write(filename, body)
    end
+
   		 
 Say you are learning a new concept and testing it out in pry, but you want to save it to a ".rb" file.
 
