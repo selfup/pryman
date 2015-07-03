@@ -1,5 +1,5 @@
 # pryman
-Testing out a way to snapshot pry sessions
+Ways to snapshot pry session. Can only save 100 lines at a time.
 
 # How it works
 
@@ -34,14 +34,15 @@ Now you just type in
 
 It will write/ovewrite a file called batman.rb
 
+If you run "batman" again, it will add "1" to "batman". So batman1.rb.
+
+If you call: batman lol.rb
+
+It will now make a file called lol.rb instead of batman.
+
 If you leave a text editor open, everytime you run "batman" you will see it overwrite the batman.rb file.
 
     Say you are using atom
-    Cmd + Shift + S will now save a new file so that you can overwrite batman.rb again
-    Then in terminal you launch batman.rb via atom
-    atom batman.rb
-    And you can keep logs of your progress
-    Must exit pry sessions for "new" batman.rb file to be created
 
 I just "Save As" into this repo to keep track
 
