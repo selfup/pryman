@@ -6,7 +6,9 @@ Testing out a way to snapshot pry sessions
 Say you are learning a new concept and testing it out in pry, but you want to save it to a ".rb" file.
 
 Now you just type in
+
     $ batman
+    
 It will write/ovewrite a file called batman.rb
 
 If you leave a text editor open, everytime you run "batman" you will see it overwrite the batman.rb file.
