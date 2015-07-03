@@ -6,14 +6,13 @@ Testing out a way to snapshot pry sessions
 Paste this into your ".pryrc" file via vim:
 
 	Pry::Commands.block_command "batman", "Save the session" do |filename="batman.rb"|
-     		inout = _pry_.input_array.to_a.zip(_pry_.output_array.to_a)
-     		body  = inout.map { |input, output|
-       		inspected_output = output.inspect.gsub(/^/, '  # ')
-       		"#{input}#{inspected_output}"
-     		}.join("\n")
-     		File.write(filename, body)
-   	end
-
+	  inout = _pry_.input_array.to_a.zip(_pry_.output_array.to_a)
+	  body  = inout.map { |input, output|
+	    inspected_output = output.inspect.gsub(/^/, '  # ')
+	    "#{input}#{inspected_output}"
+	  }.join("\n")
+	  File.write(filename, body)  
+	end
   		 
 Say you are learning a new concept and testing it out in pry, but you want to save it to a ".rb" file.
 
