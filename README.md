@@ -28,11 +28,11 @@ end
 
 Say you are learning a new concept and testing it out in pry, but you want to save it to a **".rb"** file.
 
-Now you just type in (while in a pry session)
+Now you just type in (while in pry):
 
     $ batman
 
-It will write/ovewrite a file called batman.rb
+It will write/ovewrite a file called **"batman.rb""**.
 
 If you run **"batman"** again, it will add **"1"** to **"batman"**. So **"batman1.rb"**.
 
