@@ -3,7 +3,7 @@ Ways to snapshot pry session. Can only save 100 lines at a time.
 
 # How it works
 
-Paste this into your ".pryrc" file via vim:
+Paste this into your **".pryrc"** file:
 
 ```ruby
 Pry::Commands.block_command "batman", "Save the session" do |filename|
@@ -26,7 +26,7 @@ Pry::Commands.block_command "batman", "Save the session" do |filename|
 end
 ```
 
-Say you are learning a new concept and testing it out in pry, but you want to save it to a ".rb" file.
+Say you are learning a new concept and testing it out in pry, but you want to save it to a **".rb"** file.
 
 Now you just type in (while in a pry session)
 
@@ -34,13 +34,13 @@ Now you just type in (while in a pry session)
 
 It will write/ovewrite a file called batman.rb
 
-If you run "batman" again, it will add "1" to "batman". So "batman1.rb".
+If you run **"batman"** again, it will add **"1"** to **"batman"**. So **"batman1.rb"**.
 
 If you call: 
 
     $ batman lol.rb
 
-It will now make a file called "lol.rb" instead of batman.
+It will now make a file called **"lol.rb"** instead of batman.
 
 ----------------------------------------------------------------------------------------
 
