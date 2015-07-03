@@ -35,5 +35,5 @@ I just "Save As" into this repo to keep track
 
 Excited to Start Turing on MONDAY!
 
-# Many Thanks to Josh Cheek from Turing for helping me solve a problem and writing this lil "app" for me
+# Many Thanks to Josh Cheek from Turing for helping me out.
 
