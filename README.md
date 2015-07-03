@@ -40,11 +40,7 @@ If you call: batman lol.rb
 
 It will now make a file called lol.rb instead of batman.
 
-If you leave a text editor open, everytime you run "batman" you will see it overwrite the batman.rb file.
-
-    Say you are using atom
-
-I just "Save As" into this repo to keep track
+----------------------------------------------------------------------------------------
 
 Excited to Start Turing on MONDAY!
 
