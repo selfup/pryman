@@ -44,7 +44,7 @@ So **"batman1.rb"**.
 
 It will now make a file called **"lol.rb"** instead of "batman.rb"
 
-**5)** It will save the new file to your CURRENT WORKING directory
+**5)** It will save the new file to your CURRENT WORKING directory!
 
 ----------------------------------------------------------------------------------------
 
