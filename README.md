@@ -42,6 +42,8 @@ If you call:
 
 It will now make a file called **"lol.rb"** instead of batman.
 
+**It will save the new file to your CURRENT WORKING directory**
+
 ----------------------------------------------------------------------------------------
 
 Excited to Start Turing on MONDAY!
