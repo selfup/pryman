@@ -1,5 +1,5 @@
 # pryman
-Ways to snapshot pry session. Can only save 100 lines at a time.
+Ways to snapshot a pry session. Can only save 100 lines at a time.
 
 # How it works
 
@@ -26,23 +26,25 @@ Pry::Commands.block_command "batman", "Save the session" do |filename|
 end
 ```
 
-1) Say you are learning a new concept and testing it out in pry, but you want to save it to a **".rb"** file.
+**1)** Say you are learning a new concept and testing it out in pry, but you want to save it to a **".rb"** file.
 
-2) Now you just type in (while in pry):
+**2)** Now you just type in (while in pry):
 
     $ batman
 
 It will write a file called **"batman.rb""**.
 
-3) If you run **"batman"** again, it will add **"1"** to **"batman"**. So **"batman1.rb"**.
+**3)** If you run **"batman"** again, it will add **"1"** to **"batman"**. 
 
-4) If you call: 
+So **"batman1.rb"**.
+
+**4)** If you call: 
 
     $ batman lol.rb
 
-It will now make a file called **"lol.rb"** instead of batman.
+It will now make a file called **"lol.rb"** instead of "batman.rb"
 
-5) **It will save the new file to your CURRENT WORKING directory**
+**5)** It will save the new file to your CURRENT WORKING directory
 
 ----------------------------------------------------------------------------------------
 
