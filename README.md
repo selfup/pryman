@@ -1,5 +1,5 @@
 # pryman
-Ways to save a snapshot of a pry session.
+A way to save a snapshot of a pry session.
 
 # How it works
 
