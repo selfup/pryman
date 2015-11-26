@@ -1,5 +1,5 @@
 # pryman
-Ways to snapshot a pry session. Can only save 100 lines at a time.
+Ways to save a snapshot of a pry session.
 
 # How it works
 
