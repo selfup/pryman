@@ -44,11 +44,10 @@ So **"batman1.rb"**.
 
 It will now make a file called **"lol.rb"** instead of "batman.rb"
 
-**5)** It will save the new file to your CURRENT WORKING directory!
+**5)** It will save the new file to your CURRENT WORKING directory.
 
 ----------------------------------------------------------------------------------------
 
-Excited to Start Turing on MONDAY!
 
-# Many Thanks to Josh Cheek from Turing for helping me out.
+#### Many Thanks to Josh Cheek from Turing for helping me out.
 
