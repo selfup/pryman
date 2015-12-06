@@ -51,3 +51,5 @@ It will now make a file called **"lol.rb"** instead of "batman.rb"
 
 #### Many Thanks to Josh Cheek from Turing for helping me out.
 
+Check out his work: @JoshCheek
+
